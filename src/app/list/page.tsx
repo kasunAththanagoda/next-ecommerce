@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React, { Suspense } from 'react'
+import Filter from '../components/Filter'
 
 export default function ListPage() {
   return (
@@ -20,7 +21,7 @@ export default function ListPage() {
         </div>
       </div>
       {/* FILTER */}
-      {/* <Filter /> */}
+      <Filter />
       {/* PRODUCTS */}
       {/* <h1 className="mt-12 text-xl font-semibold">{cat?.collection?.name} For You!</h1> */}
       {/* <Suspense fallback={<Skeleton/>}>
