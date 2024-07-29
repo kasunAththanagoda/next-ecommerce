@@ -18,7 +18,11 @@ export default function CustomizeProducts() {
 
 
       <h4 className='font-medium'>Choose a size</h4>
-      <div className='flex items-center gap-3'></div>
+      <ul className='flex items-center gap-3'>
+      <li className='ring-1 ring-base text-base rounded-md py-1 px-4 text-sm cursor-pointer'>Small</li>
+      <li className='ring-1 ring-base text-white bg-base rounded-md py-1 px-4 text-sm cursor-pointer'>Medium</li>
+      <li className='ring-1 ring-pink-200 text-white bg-pink-200 rounded-md py-1 px-4 text-sm cursor-pointer'>Large</li>
+      </ul>
     </div>
   )
 }
