@@ -20,6 +20,12 @@ export default function SinglePage() {
         <h3 className='text-xl text-gray-500 line-through'>50</h3>
         <h3 className='font-medium text-2xl'>60</h3>
       </div>
+
+      <CustomizeProducts />
+      <Add />
+
+
+
       <div className='h-[2px] bg-gray-100'></div>
       <div className='text-sm'>
         <h4 className='font-medium mb-4'>Title</h4>
@@ -32,8 +38,7 @@ export default function SinglePage() {
         <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nam veritatis tempore rerum autem nostrum in aliquam vitae libero, quis iusto delectus sapiente corrupti amet laudantium dignissimos ex officia possimus!</p>
       </div>
 
-      <CustomizeProducts />
-      <Add />
+      
       </div>
 
     </div>
